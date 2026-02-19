@@ -78,10 +78,22 @@ h1 { font-size: 36px; margin: 30px 0; }
 </body>
 </html>
 
- <section class="contact" id="contact">
-      <h2>Contact</h2>
-      <div class="contact-info">
-        <p>Email: <a href="mailto:Mustafaaelsayed002@gmail.com">Mustafaaelsayed002@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/mustafa-elsayed-2250a831b/" target="_blank">linkedin.com/in/yourprofile</a></p>
-      </div>
-    </section>
+ <!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+  <div class="contact-info">
+    <p>Email: <a href="mailto:Mustafaaelsayed002@gmail.com">Mustafaaelsayed002@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/mustafa-elsayed-2250a831b/" target="_blank">linkedin.com/in/mustafa-elsayed-2250a831b/</a></p>
+  </div>
+
+  <!-- New field / form at the bottom -->
+  <div class="contact-form">
+    <h3>Leave a Message</h3>
+    <form action="mailto:Mustafaaelsayed002@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin: 5px 0; border-radius: 8px; border: 1px solid #00ffff; background-color: #111; color: #fff;">
+      <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin: 5px 0; border-radius: 8px; border: 1px solid #00ffff; background-color: #111; color: #fff;">
+      <textarea name="message" placeholder="Your Message" rows="5" required style="width: 100%; padding: 10px; margin: 5px 0; border-radius: 8px; border: 1px solid #00ffff; background-color: #111; color: #fff;"></textarea>
+      <button type="submit" style="padding: 10px 25px; border: 2px solid #00ffff; border-radius: 50px; font-weight: bold; background: none; color: #00ffff; cursor: pointer; transition: 0.3s;">Send</button>
+    </form>
+  </div>
+</section>
